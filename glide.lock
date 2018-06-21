@@ -1,0 +1,41 @@
+hash: 7a850e9ab25c1b28ae2ed38dd350e8d9adfb38c53788be276504d02a98ef8276
+updated: 2018-06-12T22:27:44.724888+08:00
+imports:
+- name: github.com/andybalholm/cascadia
+  version: 349dd0209470eabd9514242c688c403c0926d266
+- name: github.com/boltdb/bolt
+  version: 2f1ce7a837dcb8da3ec595b1dac9d0632f0f99e8
+- name: github.com/certifi/gocertifi
+  version: a4ab0227d360091084658029ec8ae45f989fba3e
+- name: github.com/getsentry/raven-go
+  version: b9f2aa2550bb0e89ab351d6fd59decd608b84ac1
+- name: github.com/go-chi/chi
+  version: e83ac2304db3c50cf03d96a2fcd39009d458bc35
+  subpackages:
+  - middleware
+- name: github.com/go-sql-driver/mysql
+  version: d523deb1b23d913de5bdada721a6071e71283618
+- name: github.com/kelseyhightower/envconfig
+  version: f611eb38b3875cc3bd991ca91c51d06446afa14c
+- name: github.com/mattn/go-sqlite3
+  version: d31a44a0bd3b04338b506515c1cab0fe0e6e73bf
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/PuerkitoBio/goquery
+  version: dc2ec5c7ca4d9aae063b79b9f581dd3ea6afd2b2
+- name: github.com/robfig/cron
+  version: b41be1df696709bb6395fe435af20370037c0b4c
+- name: golang.org/x/net
+  version: 59a0b19b5533c7977ddeb86b017bf507ed407b12
+  subpackages:
+  - html
+  - html/atom
+- name: golang.org/x/sys
+  version: 314a259e304ff91bd6985da2a7149bbf91237993
+  subpackages:
+  - unix
+- name: google.golang.org/appengine
+  version: b1f26356af11148e710935ed1ac8a7f5702c7612
+  subpackages:
+  - cloudsql
+testImports: []
